@@ -1,0 +1,32 @@
+Best results achieved for each model:
+
+Embedding + Max Pooling:
+ - Top 1 Precision:
+   - 0.492 on test 1
+   - 0.483 on test 2
+   - 0.495 on dev
+ - MRR:
+   - 0.624 on test 1
+   - 0.611 on test 2
+   - 0.624 on dev
+
+Dense + CNN + Max Pooling:
+ - Top 1 precision:
+   - 0.507 on test 1
+   - 0.427 on test 2
+   - 0.470 on dev
+ - MRR:
+   - 0.635 on test 1
+   - 0.557 on test 2
+   - 0.596 on dev
+
+Attentional LSTM + Max Pooling:
+ - Top 1 precision:
+   - 0.480 on test 1
+   - 0.465 on test 2
+   - 0.487 on dev
+ - MRR:
+   - 0.627 on test 1
+   - 0.613 on test 2
+   - 0.635 on dev
+
